@@ -9,4 +9,5 @@ def main() :
     st.title('나는 졸리다')
     
 if __name__ == '__main__' :
+    print(__name__)
     main()
