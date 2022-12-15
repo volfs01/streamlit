@@ -53,5 +53,7 @@ def main() :
         fig7 = px.bar(df_sorted , x= 'lang' ,y='Sum')
         st.plotly_chart(fig7)
         
+        st.dataframe(df4)
+        
 if __name__ == '__main__' :
     main()
