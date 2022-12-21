@@ -55,5 +55,8 @@ def main() :
         
         st.dataframe(df4)
         
+        
+        st.dataframe(df_sorted)
+        
 if __name__ == '__main__' :
     main()
